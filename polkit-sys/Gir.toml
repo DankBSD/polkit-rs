@@ -1,0 +1,10 @@
+[options]
+library = "Polkit"
+version = "1.0"
+work_mode = "sys"
+target_path = "."
+external_libraries = [
+	"GLib",
+	"GObject",
+	"Gio",
+]

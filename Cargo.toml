@@ -1,0 +1,13 @@
+[workspace]
+members = [
+	"polkit-sys",
+	"polkit",
+	"polkit-agent-sys",
+	"polkit-agent",
+]
+
+[patch.crates-io]
+polkit-sys = { path = "polkit-sys" }
+polkit-agent-sys = { path = "polkit-agent-sys" }
+polkit = { path = "polkit" }
+polkit-agent = { path = "polkit-agent" }

@@ -1,0 +1,25 @@
+[package]
+name = "polkit-agent"
+version = "0.1.0"
+authors = ["Greg V <greg@unrelenting.technology>"]
+edition = "2015"
+keywords = [ "PolicyKit", "PolKit", "libpolkit-agent" ]
+categories = [ "api-bindings", "authentication", "os::unix-apis" ]
+description = "High-level bindings for libpolkit-agent-1"
+license = "Unlicense"
+readme = "../README.md"
+homepage = "https://github.com/DankBSD/polkit-rs"
+repository = "https://github.com/DankBSD/polkit-rs"
+documentation = "https://docs.rs/polkit-agent/"
+
+[dependencies]
+libc = "0"
+bitflags = "1"
+polkit-sys = "0"
+polkit-agent-sys = "0"
+glib-sys = "0"
+gobject-sys = "0"
+gio-sys = "0"
+glib = "0"
+gio = "0"
+polkit = "0"
