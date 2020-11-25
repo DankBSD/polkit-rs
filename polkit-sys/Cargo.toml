@@ -17,8 +17,8 @@ documentation = "https://docs.rs/polkit-sys/"
 name = "polkit-gobject-1"
 version = "0.0"
 
-[package.metadata.system-deps.polkit_gobject_1.v0_101]
-version = "0.101"
+# [package.metadata.system-deps.polkit_gobject_1.v0_101]
+# version = "0.101"
 
 [package.metadata.docs.rs]
 features = ["dox"]
@@ -30,7 +30,7 @@ gobject-sys = "0"
 gio-sys = "=0.10.0"
 
 [build-dependencies]
-system-deps = "2.0"
+system-deps = "1"
 
 [dev-dependencies]
 shell-words = "1.0.0"
