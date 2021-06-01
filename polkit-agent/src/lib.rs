@@ -1,18 +1,8 @@
-#![allow(deprecated)]
-#![allow(dead_code)]
+#![cfg_attr(feature = "dox", feature(doc_cfg))]
 
-extern crate gio_sys;
-extern crate glib_sys;
-extern crate gobject_sys;
-extern crate libc;
-extern crate polkit_agent_sys;
-extern crate polkit_sys;
-#[macro_use]
-extern crate glib;
-extern crate gio;
-extern crate polkit;
-#[macro_use]
-extern crate bitflags;
+pub use ffi;
 
+#[allow(unused_imports)]
 mod auto;
-pub use auto::*;
+
+pub use crate::auto::*;
