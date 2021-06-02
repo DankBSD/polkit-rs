@@ -233,7 +233,7 @@ checksum = "3831453b3449ceb48b6d9c7ad7c96d5ea673e9b470a1dc578c2ce6521230884c"
 
 [[package]]
 name = "polkit"
-version = "0.1.0"
+version = "0.14.0"
 dependencies = [
  "bitflags",
  "gio",
@@ -246,7 +246,7 @@ dependencies = [
 
 [[package]]
 name = "polkit-agent"
-version = "0.1.0"
+version = "0.14.0"
 dependencies = [
  "bitflags",
  "gio",
@@ -258,7 +258,7 @@ dependencies = [
 
 [[package]]
 name = "polkit-agent-sys"
-version = "0.1.0"
+version = "0.14.0"
 dependencies = [
  "gio-sys",
  "glib-sys",
@@ -272,7 +272,7 @@ dependencies = [
 
 [[package]]
 name = "polkit-sys"
-version = "0.1.0"
+version = "0.14.0"
 dependencies = [
  "gio-sys",
  "glib-sys",
