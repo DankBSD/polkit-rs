@@ -1,6 +1,6 @@
 [package]
 name = "polkit-agent"
-version = "0.14.0"
+version = "0.15.0"
 authors = ["Greg V <greg@unrelenting.technology>"]
 edition = "2018"
 keywords = [ "PolicyKit", "PolKit", "libpolkit-agent" ]
@@ -16,6 +16,6 @@ documentation = "https://docs.rs/polkit-agent/"
 libc = "0"
 bitflags = "1"
 ffi = { package = "polkit-agent-sys", path = "sys" }
-glib = "=0.14.0"
-gio = "=0.14.0"
+glib = "=0.15.0"
+gio = "=0.15.0"
 polkit = { path = "../polkit" }

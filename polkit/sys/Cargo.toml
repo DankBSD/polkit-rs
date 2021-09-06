@@ -1,6 +1,6 @@
 [package]
 name = "polkit-sys"
-version = "0.14.0"
+version = "0.15.0"
 authors = ["Greg V <greg@unrelenting.technology>"]
 edition = "2018"
 build = "build.rs"
@@ -23,12 +23,12 @@ features = ["dox"]
 
 [dependencies]
 libc = "0.2"
-glib-sys = "=0.14.0"
-gobject-sys = "=0.14.0"
-gio-sys = "=0.14.0"
+glib-sys = "=0.15.0"
+gobject-sys = "=0.15.0"
+gio-sys = "=0.15.0"
 
 [build-dependencies]
-system-deps = "3"
+system-deps = "4"
 
 [dev-dependencies]
 shell-words = "1.0.0"

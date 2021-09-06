@@ -1,6 +1,6 @@
 [package]
 name = "polkit"
-version = "0.14.0"
+version = "0.15.0"
 authors = ["Greg V <greg@unrelenting.technology>"]
 edition = "2018"
 keywords = [ "PolicyKit", "PolKit", "libpolkit-gobject" ]
@@ -14,9 +14,9 @@ documentation = "https://docs.rs/polkit/"
 
 [dependencies]
 bitflags = "1"
-glib-sys = "=0.14.0"
-gobject-sys = "=0.14.0"
-gio-sys = "=0.14.0"
-glib = "=0.14.0"
-gio = "=0.14.0"
+glib-sys = "=0.15.0"
+gobject-sys = "=0.15.0"
+gio-sys = "=0.15.0"
+glib = "=0.15.0"
+gio = "=0.15.0"
 ffi = { package = "polkit-sys", path = "sys" }

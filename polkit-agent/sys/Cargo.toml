@@ -1,6 +1,6 @@
 [package]
 name = "polkit-agent-sys"
-version = "0.14.0"
+version = "0.15.0"
 authors = ["Greg V <greg@unrelenting.technology>"]
 edition = "2018"
 build = "build.rs"
@@ -20,13 +20,15 @@ features = ["dox"]
 
 [dependencies]
 libc = "0.2"
-glib-sys = "=0.14.0"
-gobject-sys = "=0.14.0"
-gio-sys = "=0.14.0"
-polkit-sys = { path = "../../polkit/sys" }
+glib-sys = "=0.15.0"
+gobject-sys = "=0.15.0"
+gio-sys = "=0.15.0"
+
+[dependencies.polkit-sys]
+path = "../../polkit/sys"
 
 [build-dependencies]
-system-deps = "3"
+system-deps = "4"
 
 [dev-dependencies]
 shell-words = "1.0.0"

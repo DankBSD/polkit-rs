@@ -43,4 +43,6 @@ manual = [
 	"GObject.Value",
 	"Gio.Cancellable",
 	"Gio.Permission",
+	"Gio.AsyncResult",
+	"Gio.AsyncReadyCallback",
 ]
